@@ -13,3 +13,13 @@ PrintArray (s1);
 Console.WriteLine();
 
 string[] s2 = new string[s1.Length];
+
+int count = 0;
+for (int i = 0; i < s1.Length; i++)
+{
+    if(s1[i].Length <= 3)
+    {
+        s2[count] = s1[i];
+        count ++;
+    }
+}
