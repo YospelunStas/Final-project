@@ -11,3 +11,5 @@ void PrintArray (string[] array)
 string[] s1 = new string[5] {"ru", "hello", "777", "A", "1234"};
 PrintArray (s1);
 Console.WriteLine();
+
+string[] s2 = new string[s1.Length];
