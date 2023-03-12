@@ -23,3 +23,4 @@ for (int i = 0; i < s1.Length; i++)
         count ++;
     }
 }
+PrintArray(s2);
